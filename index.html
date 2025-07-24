@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Assignment 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <header>
@@ -32,7 +39,26 @@
         </ul>
       </section>
     </header>
-    <body></body>
+    <body>
+      <!-- banner section -->
+      <section class="grid md:grid-cols-2 items-center md:mx-[150px] md:mt-32">
+        <img
+          class="max-h-60 w-full my-7 md:row-span-2 md:max-w-[570px] md:max-h-[360px] md:my-0 md:self-end justify-self-end"
+          src="./assets/hero-flower.png"
+          alt=""
+        />
+        <p
+          class="noto-serif-nahid font-bold text-2xl mx-4 md:order-first md:text-6xl md:mt-36"
+        >
+          ALWAYS <span class="text-orange-500">FRESH <br />FLOWERS</span>
+        </p>
+        <p class="mx-4 text-[14px] text-gray-500 mt-3.5 md:text-[22px]">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of
+          fresh flowers that are perfect for any occasion.
+        </p>
+      </section>
+    </body>
     <footer></footer>
   </body>
 </html>
